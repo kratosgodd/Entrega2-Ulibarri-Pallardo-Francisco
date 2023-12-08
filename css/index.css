@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Varela+Round&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/*!------HEADER------!*/
+
+header {
+    background-color: #f9f7f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    
+    
+}
+
+header h1 {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+header nav ul li {
+    margin: 50px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*!------MAIN------!*/
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 2000px;
+    height: 500px;
+    background: #178ca4 url(../img/automation.png) no-repeat center / cover;
+    border: 5px solid black;
+    padding: 50px;
+    margin: 50px;
+}
+
+
+.hero h2 {
+    text-decoration: none;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.section-1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+
+
+.section-1 img {
+    height: 500px;
+    width: 600px;
+    border-radius: 5%;
+
+}
+
+.section-2{
+    display: flex;
+    align-items:    center;
+    text-align: center;
+    justify-content: center;
+    margin: 40px;
+    
+}
+
+
+.section-2 img {
+    height: 300px;
+    width: 600px;
+    border-radius: 5%;
+}
+
+.section-3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+
+.section-3 img {
+    height: 270px;
+    width: 500px;
+    border-radius: 5%;
+}
+
+
+main i {
+    font-size: 45px;
+    color: #25D366;
+    background-color: white;
+    padding: 5px;
+    border-radius: 70%;
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    display: flex;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto; 
+    grid-template-columns: 1fr; 
+    min-height: 100vh; 
+    gap: 20px; 
+    grid-template-areas:
+        "header"
+        "hero"
+        "section-1"
+        "section-2"
+        "section-3"
+        "footer";
+}
+
+
+.face2face{
+    background-color:#072a40 ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.map{
+    background-color: #072a40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.face2face {
+    color: #f9f7f0;
+}
+
+
+/*!------FOOTER------!*/
+
+
+.whatsapp-logo {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.whatsapp-logo img {
+    width: 50px;
+    height: auto;
+    margin: 20px;
+}
+
+
+.arrow-up {
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    z-index: 1;
+}
+
+.arrow-up img {
+    width: 30px;
+    height: auto;
+}
+
+
+footer {
+    background-color: #072a40;  
+    padding: 30px;
+    
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly
+
+    
+}
+
+footer div a img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/*!-----MEDIA QUERIES-----!*/
+
